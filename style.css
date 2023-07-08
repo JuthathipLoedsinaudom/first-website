@@ -1,0 +1,71 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navigationbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(233, 248, 253);
+    padding: 5px;
+    border-radius: 8px;
+}
+
+#Logo {
+    width: 5%;
+}
+
+a {
+    color: rgb(7, 113, 206);
+    text-decoration: none;
+}
+
+.controlBar {
+    align-items: center;
+    width: 30%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hello {
+    display: flex;
+    justify-content: center;
+}
+
+.maincontent {
+    display: flex;
+    align-items: center;
+}
+
+#Profilepic {
+    width: 30%;
+    margin: 100px;
+}
+
+#conan {
+    width: 40%;
+    margin: 100px;
+}
+
+.ig {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .element {
+    margin: 10px;
+}
+
+.slideshow{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 200px;
+}
+
